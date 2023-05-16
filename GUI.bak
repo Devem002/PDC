@@ -1,0 +1,5 @@
+#lang racket/gui
+
+;Make the window to display the board
+(define frame (new frame%[label "Caballo"]))
+(send frame show #t)
